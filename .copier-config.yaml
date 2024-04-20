@@ -34,9 +34,8 @@ project_description: The Sierra Club, one of the most influential environmental 
     patterns, response strategies, and their implications for environmental protection.
 project_license: MIT
 project_name: sierraclub
-project_short_description: 'Analyzing Corporate Responses to Sierra Club Lawsuits:
-    An NLP-driven Approach to Understand Strategies, Outcomes, and Implications for
-    Environmental Protection'
+project_short_description: An NLP-driven Approach to Understand Strategies, Outcomes,
+    and Implications for Environmental Protection
 upload_to_release: true
 upload_to_repository: true
 use_launch_buttons: true
