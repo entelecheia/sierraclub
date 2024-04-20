@@ -1,0 +1,35 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.14.2
+_src_path: gh:entelecheia/hyperfast-python-template
+author: Young Joon Lee
+build_and_release: true
+code_template_answers_file: .copier-hyfi-config.yaml
+code_template_source: gh:entelecheia/hyfi-template
+codecov_graph_token: 7fEXGrkESp
+copyright_year: 2023
+documentaion_tool: jupyter-book
+documentation_url: https://sierra.entelecheia.ai
+email: entelecheia@hotmail.com
+favicon_path: https://assets.entelecheia.ai/favicon.png
+friendly_name: SierraClub 
+github_repo_name: sierraclub
+github_username: entelecheia
+google_analytics_id: G-Q1HTTH4YZ2
+logo_path: ''
+main_branch: main
+open_link: false
+package_name: sierra
+package_scripts:
+- sierra = 'hyfetcher.__cli__:main'
+poe_task_files:
+- .tasks.toml
+- .tasks-extra.toml
+project_description: The Sierra Club, one of the most influential environmental organizations in the United States, frequently files lawsuits against projects that it believes pose significant environmental risks. Companies facing such legal challenges must develop strategies to respond effectively while balancing their project objectives, reputational concerns, and environmental responsibilities. This research aims to examine how companies respond to Sierra Club lawsuits by developing an NLP pipeline that employs Large Language Models (LLMs) to analyze corporate communication patterns, response strategies, and their implications for environmental protection.
+project_license: MIT
+project_name: sierraclub
+project_short_description: "Analyzing Corporate Responses to Sierra Club Lawsuits: An NLP-driven Approach to Understand Strategies, Outcomes, and Implications for Environmental Protection"
+upload_to_release: true
+upload_to_repository: true
+use_launch_buttons: true
+use_source_code_skeleton: true
+
