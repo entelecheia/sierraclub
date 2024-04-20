@@ -10,7 +10,7 @@ readme = "README.md"
 packages = [{ include = "sierra", from = "src" }]
 
 [tool.poetry.scripts]
-sierra = 'hyfetcher.__cli__:main'
+sierra = 'sierra.__cli__:main'
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"

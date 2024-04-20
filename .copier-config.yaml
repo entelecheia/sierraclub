@@ -20,7 +20,7 @@ main_branch: main
 open_link: false
 package_name: sierra
 package_scripts:
-- sierra = 'hyfetcher.__cli__:main'
+- sierra = 'sierra.__cli__:main'
 poe_task_files:
 - .tasks.toml
 - .tasks-extra.toml
