@@ -96,17 +96,17 @@ install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
 
 mkvirtualenv: ## create the project environment
-	@python3 -m venv "$$WORKON_HOME/hyfi-fetcher"
-	@. "$$WORKON_HOME/hyfi-fetcher/bin/activate"
+	@python3 -m venv "$$WORKON_HOME/sierraclub"
+	@. "$$WORKON_HOME/sierraclub/bin/activate"
 	@pip install --upgrade pip setuptools wheel
 
 mkvirtualenv-system: ## create the project environment with system site packages
-	@python3 -m venv "$$WORKON_HOME/hyfi-fetcher" --system-site-packages
-	@. "$$WORKON_HOME/hyfi-fetcher/bin/activate"
+	@python3 -m venv "$$WORKON_HOME/sierraclub" --system-site-packages
+	@. "$$WORKON_HOME/sierraclub/bin/activate"
 	@pip install --upgrade pip setuptools wheel
 
 workon: ## activate the project environment
-	@. "$$WORKON_HOME/hyfi-fetcher/bin/activate"
+	@. "$$WORKON_HOME/sierraclub/bin/activate"
 
 initialize: install-pipx ## initialize the project environment
 	@pipx install copier
@@ -120,6 +120,3 @@ init-project: initialize remove-template ## initialize the project (Warning: do 
 
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
 	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy --trust "$${args[@]}" --data 'code_template_source=gh:entelecheia/hyfi-template' --answers-file .copier-config.yaml gh:entelecheia/hyperfast-python-template .'
-
-install-playwright: ## install playwright
-	@command -v playwright &> /dev/null && playwright install || true

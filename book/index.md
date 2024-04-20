@@ -4,10 +4,12 @@
 [![version-image]][release-url]
 [![release-date-image]][release-url]
 [![license-image]][license-url]
-[![codecov][codecov-image]][codecov-url]
 [![jupyter-book-image]][docs-url]
+[![codecov][codecov-image]][codecov-url]
 
 <!-- Links: -->
+[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
+
 [codecov-image]: https://codecov.io/gh/entelecheia/sierraclub/branch/main/graph/badge.svg?token=5kQdiYJHiq
 [codecov-url]: https://codecov.io/gh/entelecheia/sierraclub
 [pypi-image]: https://img.shields.io/pypi/v/sierraclub
@@ -44,3 +46,8 @@ Contributions are welcome! Please see the [contributing guidelines] for more inf
 ## License
 
 This project is released under the [MIT License][license-url].
+
+## Table of Contents
+
+```{tableofcontents}
+```
