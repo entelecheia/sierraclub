@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sierraclub"
-version = "0.0.0"
+version = "0.1.0"
 description = "Analyzing Corporate Responses to Sierra Club Lawsuits: An NLP-driven Approach to Understand Strategies, Outcomes, and Implications for Environmental Protection"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
