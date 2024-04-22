@@ -1392,14 +1392,14 @@ ipython = ["ipython (<=8.12.2)", "ipython-autotime (>=0.3.1,<0.4.0)", "ipywidget
 
 [[package]]
 name = "hyfi-fetcher"
-version = "0.2.1"
+version = "0.2.2"
 description = "HyFI-Fetcher is a Python package for programmatically scraping websites to extract various data, serving as a plugin for HyFI."
 category = "main"
 optional = false
 python-versions = "<3.13,>=3.9"
 files = [
-    {file = "hyfi_fetcher-0.2.1-py3-none-any.whl", hash = "sha256:f8fccd0d4e1061d3c5266783b251cf197a10562b93aa67bb35467b8682f79796"},
-    {file = "hyfi_fetcher-0.2.1.tar.gz", hash = "sha256:1fe0db6b879ce00aeb6acd979984eaeefd359af9b4bd6c64acb08823f8e29e26"},
+    {file = "hyfi_fetcher-0.2.2-py3-none-any.whl", hash = "sha256:46d1ea7f5b088e39ec4a49d17b6e78063979dcd2c9b8a80fc09de5b4736ed0b9"},
+    {file = "hyfi_fetcher-0.2.2.tar.gz", hash = "sha256:8b28909e040281b5eda5eed423afb8cccab47a075e66f9cc9ccc227621bb1917"},
 ]
 
 [package.dependencies]
@@ -3763,4 +3763,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "c4de99447aa3f03e462648fa3b5bf90ed06bcbd6693652efe873db12ae608882"
+content-hash = "a551c0e176d5379884a12d6ea5ad7111c9a075fabe0645b57340582ab96b3cf3"
