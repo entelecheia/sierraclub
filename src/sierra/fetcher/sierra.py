@@ -5,7 +5,7 @@ Fetcher for Sierra Club website.
 import logging
 from typing import List, Optional
 
-from hyfetcher.fetcher.base import BaseFetcher
+from hyfetcher.fetcher import BaseFetcher
 
 logger = logging.getLogger(__name__)
 
