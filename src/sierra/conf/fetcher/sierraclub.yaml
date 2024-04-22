@@ -1,0 +1,28 @@
+_target_: sierra.fetcher.sierra.SierraClubFetcher
+_config_name_: sierraclub
+_config_group_: /fetcher
+article_filename: articles.jsonl
+base_url: https://www.sierraclub.org
+delay_between_requests: 0.5
+key_field: url
+keyword_placeholder: '{keyword}'
+link_filename: links.jsonl
+max_num_articles: 30
+max_num_pages: 2
+num_workers: 1
+output_dir: workspace/datasets/fetcher/sierraclub
+overwrite_existing: false
+page_placeholder: '{page}'
+print_every: 10
+search_keywords: []
+search_url: https://www.sierraclub.org/press-releases?_wrapper_format=html&page={page}
+start_page: 1
+start_urls: []
+use_playwright: false
+verbose: true
+link_find_all_name: div
+link_find_all_attrs:
+  class: post
+lint_article_name: h3
+lint_article_attrs:
+  class: post-title
