@@ -1,4 +1,4 @@
-from sierra.fetcher.sierra import SierraClubFetcher
+from sierra.fetcher import SierraClubFetcher
 
 
 def test_generate_config():
