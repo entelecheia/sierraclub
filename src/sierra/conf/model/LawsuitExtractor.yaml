@@ -1,0 +1,5 @@
+defaults:
+- /llm@llm_model: openai
+_target_: sierra.models.lawsuit.LawsuitExtractor
+_config_name_: LawsuitExtractor
+_config_group_: /model
