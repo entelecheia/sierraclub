@@ -1,10 +1,11 @@
 from typing import List, Optional
 
 from hyfi.composer import BaseModel
-from langchain_community.output_parsers.rail_parser import GuardrailsOutputParser
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.chat_models import ChatOpenAI
-from pydantic import BaseModel as BaseModelV2, Field
+from langchain_community.output_parsers.rail_parser import GuardrailsOutputParser
+from pydantic import BaseModel as BaseModelV2
+from pydantic import Field
 
 from sierra.llms import ChatOpenAIModel
 
