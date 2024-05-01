@@ -1,0 +1,7 @@
+defaults:
+- /env@env: __init__
+_target_: sierra.llms.openai.ChatOpenAIModel
+_config_name_: openai
+_config_group_: /llm
+api_key: null
+seed: null
