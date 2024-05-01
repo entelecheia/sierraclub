@@ -22,8 +22,8 @@ class LawsuitDetails(BaseModelV1):
 
 
 class LawsuitExtractor(BaseModel):
-    _config_group_: str = "/llm"
-    _config_name_: str = "openai"
+    _config_group_: str = "/model"
+    _config_name_: str = "LawsuitExtractor"
 
     llm_model: ChatOpenAIModel = ChatOpenAIModel()
 
