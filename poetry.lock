@@ -2082,6 +2082,23 @@ tenacity = ">=8.1.0,<9.0.0"
 extended-testing = ["jinja2 (>=3,<4)"]
 
 [[package]]
+name = "langchain-openai"
+version = "0.1.4"
+description = "An integration package connecting OpenAI and LangChain"
+category = "main"
+optional = false
+python-versions = "<4.0,>=3.8.1"
+files = [
+    {file = "langchain_openai-0.1.4-py3-none-any.whl", hash = "sha256:a349ada8724921e380aab03ee312568f5ca99adbc806f6878d79ff9cd1d6d353"},
+    {file = "langchain_openai-0.1.4.tar.gz", hash = "sha256:1a3220464c270d73ea3987010617789adc2099d4d4740b15c7734ab07e1f054b"},
+]
+
+[package.dependencies]
+langchain-core = ">=0.1.46,<0.2.0"
+openai = ">=1.10.0,<2.0.0"
+tiktoken = ">=0.5.2,<1"
+
+[[package]]
 name = "langchain-text-splitters"
 version = "0.0.1"
 description = "LangChain text splitting utilities"
@@ -4797,4 +4814,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "83d8ec063020ba60baf8b91887ce45c1548cd5697c2bc442118ef94ac840ac08"
+content-hash = "2355ccf047ee698030730b8650f7599583ad4ab0d0c7a1e4bdcf3b12281820af"
