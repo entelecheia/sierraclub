@@ -3,7 +3,7 @@ from typing import Optional
 
 from hyfi.composer import BaseModel, Field, SecretStr
 from hyfi.env import Env
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 logger = logging.getLogger(__name__)
 
