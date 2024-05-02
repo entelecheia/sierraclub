@@ -58,7 +58,7 @@ class LawsuitExtractor(BaseModel):
     def chain(self):
         return self.prompt | self.engine
 
-    def extract_lawsuit_details(self, input_text: str) -> LawsuitDetails:
+    def extract(self, input_text: str) -> LawsuitDetails:
         return self.chain.invoke({"text": input_text})
 
     def _create_output_parser(self) -> PydanticOutputParser:
@@ -101,7 +101,7 @@ More From This Press Contact
 Ian Brickey
 """
     print(input_text)
-    result = extractor.extract_lawsuit_details(input_text)
+    result = extractor.extract(input_text)
     print(result.content)
 
 
