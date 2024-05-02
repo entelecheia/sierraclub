@@ -56,7 +56,7 @@ class LawsuitExtractor(BaseModel):
 
     @property
     def chain(self):
-        return self.prompt | self.engine
+        return self.prompt | self.engine | self.output_parser
 
     def extract(self, input_text: str) -> LawsuitDetails:
         return self.chain.invoke({"text": input_text})
@@ -102,7 +102,7 @@ Ian Brickey
 """
     print(input_text)
     result = extractor.extract(input_text)
-    print(result.content)
+    print(result)
 
 
 if __name__ == "__main__":
