@@ -3,6 +3,7 @@ import uuid
 from typing import Dict, List
 
 from hyfi import HyFI
+from tqdm import tqdm
 
 from sierra.models.lawsuit import LawsuitExtractor
 
@@ -20,7 +21,7 @@ def extract_lawsuit_details(
     data: List[Dict], extractor: LawsuitExtractor
 ) -> List[Dict]:
     extracted_data = []
-    for item in data:
+    for item in tqdm(data):
         try:
             text = item["content"]
             if "lawsuit" not in text.lower():
