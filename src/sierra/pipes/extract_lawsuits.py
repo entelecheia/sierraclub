@@ -66,6 +66,12 @@ def extract(
 
     # Assign UUIDs to press releases
     data_with_uuids = assign_uuids(scraped_data)
+    HyFI.save_jsonl(data_with_uuids, scraped_data_file)
+    logger.info(
+        "Assigned UUIDs to %s press releases and saved to %s",
+        len(data_with_uuids),
+        scraped_data_file,
+    )
 
     # Apply LawsuitExtractor to press releases
     extracted_data = extract_lawsuit_details(data_with_uuids, extractor)
