@@ -26,7 +26,7 @@ More From This Press Contact
 Ian Brickey
 """
     print(input_text)
-    result = extractor.extract_lawsuit_details(input_text)
+    result = extractor.extract(input_text)
     print(result.content)
 
 
