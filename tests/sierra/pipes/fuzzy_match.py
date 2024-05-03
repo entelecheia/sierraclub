@@ -1,5 +1,5 @@
 from pathlib import Path
-from sierra.pipes.fuzzy import (
+from sierra.pipes.fuzzy_match import (
     load_project_names,
     load_defendant_names,
     match_projects_defendants,
