@@ -35,7 +35,7 @@ def filter_lawsuits():
     sierra_data_file = Path(process_data_dir) / "sierra_lawsuit_data.jsonl"
     HyFI.save_jsonl(filtered, sierra_data_file)
     sierra_data_csv_file = Path(process_data_dir) / "sierra_lawsuit_data.csv"
-    HyFI.save_dataframes(pd.DataFrame(filtered), sierra_data_csv_file)
+    HyFI.save_dataframe(pd.DataFrame(filtered), sierra_data_csv_file)
 
 
 if __name__ == "__main__":
