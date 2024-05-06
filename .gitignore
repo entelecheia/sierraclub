@@ -34,3 +34,6 @@ htmlcov/
 pytest-coverage.*
 
 workspace/
+
+.github/issues/
+book/drafts/

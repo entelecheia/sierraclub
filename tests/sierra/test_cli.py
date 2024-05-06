@@ -1,6 +1,7 @@
 """
 test cli module
 """
+
 import subprocess
 from typing import List, Tuple
 
