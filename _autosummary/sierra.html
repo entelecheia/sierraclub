@@ -93,7 +93,7 @@
     <link rel="icon" href="https://assets.entelecheia.ai/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="sierra.conf" href="sierra.conf.html" />
+    <link rel="next" title="sierra.agents" href="sierra.agents.html" />
     <link rel="prev" title="API Reference" href="../api.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -207,7 +207,27 @@
 <li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../api.html">API Reference</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">sierra</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="sierra.agents.html">sierra.agents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sierra.chains.html">sierra.chains</a></li>
 <li class="toctree-l3"><a class="reference internal" href="sierra.conf.html">sierra.conf</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="sierra.llms.html">sierra.llms</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="sierra.llms.openai.html">sierra.llms.openai</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="sierra.models.html">sierra.models</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="sierra.models.lawsuit.html">sierra.models.lawsuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sierra.models.lawsuit_v2.html">sierra.models.lawsuit_v2</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sierra.models.ner.html">sierra.models.ner</a></li>
+</ul>
+</li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="sierra.pipes.html">sierra.pipes</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="sierra.pipes.extract_lawsuits.html">sierra.pipes.extract_lawsuits</a></li>
+<li class="toctree-l4"><a class="reference internal" href="sierra.pipes.fuzzy_match.html">sierra.pipes.fuzzy_match</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="sierra.runners.html">sierra.runners</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sierra.schemas.html">sierra.schemas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sierra.tools.html">sierra.tools</a></li>
 </ul>
 </li>
 </ul>
@@ -441,7 +461,31 @@ document.write(`
 <p class="rubric">Modules</p>
 <table class="autosummary longtable table autosummary">
 <tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="sierra.agents.html#module-sierra.agents" title="sierra.agents"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.agents</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="sierra.chains.html#module-sierra.chains" title="sierra.chains"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.chains</span></code></a></p></td>
+<td><p></p></td>
+</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="sierra.conf.html#module-sierra.conf" title="sierra.conf"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.conf</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="sierra.llms.html#module-sierra.llms" title="sierra.llms"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.llms</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="sierra.models.html#module-sierra.models" title="sierra.models"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.models</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="sierra.pipes.html#module-sierra.pipes" title="sierra.pipes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.pipes</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="sierra.runners.html#module-sierra.runners" title="sierra.runners"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.runners</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="sierra.schemas.html#module-sierra.schemas" title="sierra.schemas"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.schemas</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="sierra.tools.html#module-sierra.tools" title="sierra.tools"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sierra.tools</span></code></a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -488,11 +532,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="sierra.conf.html"
+       href="sierra.agents.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">sierra.conf</p>
+        <p class="prev-next-title">sierra.agents</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
