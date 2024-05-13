@@ -23,7 +23,7 @@ class LawsuitDetails(BaseModelV1):
 
 class LawsuitExtractor(BaseModel):
     _config_group_: str = "/model"
-    _config_name_: str = "LawsuitExtractor"
+    _config_name_: str = "LawsuitExtractorOllama"
 
     llm_model: ChatOllamaModel = ChatOllamaModel()
 

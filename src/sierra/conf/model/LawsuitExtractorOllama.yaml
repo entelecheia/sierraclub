@@ -1,0 +1,5 @@
+defaults:
+- /llm@llm_model: ollama
+_target_: sierra.models.lawsuit_ollama.LawsuitExtractor
+_config_name_: LawsuitExtractorOllama
+_config_group_: /model

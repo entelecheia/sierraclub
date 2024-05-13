@@ -1,9 +1,9 @@
-from sierra.models.lawsuit import LawsuitExtractor
-from sierra.llms import ChatOpenAIModel
+from sierra.models.lawsuit_ollama import LawsuitExtractor
+from sierra.llms import ChatOllamaModel
 
 
 def main():
-    ChatOpenAIModel.generate_config()
+    ChatOllamaModel.generate_config()
     LawsuitExtractor.generate_config()
     extractor = LawsuitExtractor()
     input_text = """

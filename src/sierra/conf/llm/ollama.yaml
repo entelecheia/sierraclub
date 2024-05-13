@@ -1,0 +1,7 @@
+defaults:
+- /env@env: __init__
+_target_: sierra.llms.ollama.ChatOllamaModel
+_config_name_: ollama
+_config_group_: /llm
+api_key: null
+seed: null
