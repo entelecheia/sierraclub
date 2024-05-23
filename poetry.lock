@@ -1337,13 +1337,13 @@ protobuf = ["grpcio-tools (>=1.63.0)"]
 
 [[package]]
 name = "guardrails-ai"
-version = "0.4.3"
+version = "0.4.4"
 description = "Adding guardrails to large language models."
 optional = false
 python-versions = "<4.0.0,>=3.8.1"
 files = [
-    {file = "guardrails_ai-0.4.3-py3-none-any.whl", hash = "sha256:8d1b4f6203fa158713958b79b0396f1dc03ee13b54009a71cec4157764ae5012"},
-    {file = "guardrails_ai-0.4.3.tar.gz", hash = "sha256:e58c87a190f3fec252a0c389685c3801b5627e27dbbad937054575d71f65073d"},
+    {file = "guardrails_ai-0.4.4-py3-none-any.whl", hash = "sha256:9989b6052bb640c15132e65eb306c58246968eea5b2737741cf6b503eff8ef2b"},
+    {file = "guardrails_ai-0.4.4.tar.gz", hash = "sha256:65f283db12082b6fbf60ea28584cb0396450063cd00743b2cd003adcb75e4ace"},
 ]
 
 [package.dependencies]
@@ -1353,10 +1353,11 @@ guardrails-api-client = ">=0.1.1,<0.2.0"
 jwt = ">=1.3.1,<2.0.0"
 langchain-core = ">=0.1.18,<0.2.0"
 lxml = ">=4.9.3,<5.0.0"
-openai = "<2"
+openai = ">=1.30.1,<2.0.0"
 opentelemetry-exporter-otlp-proto-grpc = "1.20.0"
 opentelemetry-exporter-otlp-proto-http = "1.20.0"
 opentelemetry-sdk = "1.20.0"
+pip = ">=22"
 pydantic = ">=1.10.9,<3.0"
 pydash = ">=7.0.6,<8.0.0"
 python-dateutil = ">=2.8.2,<3.0.0"
@@ -1365,7 +1366,7 @@ requests = ">=2.31.0,<3.0.0"
 rich = ">=13.6.0,<14.0.0"
 rstr = ">=3.2.2,<4.0.0"
 tenacity = ">=8.1.0"
-tiktoken = ">=0.5.1,<0.6.0"
+tiktoken = ">=0.5.1"
 typer = {version = ">=0.9.0,<0.10.0", extras = ["all"]}
 typing-extensions = ">=4.8.0,<5.0.0"
 
@@ -1375,7 +1376,7 @@ competitor-check = ["spacy-transformers (>=1.3.4,<2.0.0)"]
 detect-secrets = ["detect-secrets (>=1.4.0,<2.0.0)"]
 docs-build = ["docspec_python (==2.2.1)", "nbdoc (>=0.0.82,<0.0.83)", "pydoc-markdown (==4.8.2)"]
 high-quality-translation = ["huggingface_hub (>=0.19.3,<0.20.0)", "unbabel-comet (>=2.2.1,<3.0.0)"]
-litellm = ["litellm (>=1.34.38,<2.0.0)"]
+litellm = ["litellm (>=1.37.14,<2.0.0)"]
 manifest = ["manifest-ml (>=0.1.8,<0.2.0)"]
 pii = ["presidio_analyzer (>=2.2.33,<3.0.0)", "presidio_anonymizer (>=2.2.33,<3.0.0)"]
 profanity = ["alt-profanity-check (>=1.3.1,<2.0.0)"]
@@ -2582,13 +2583,13 @@ PyYAML = ">=5.1.0"
 
 [[package]]
 name = "openai"
-version = "1.25.0"
+version = "1.30.2"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.25.0-py3-none-any.whl", hash = "sha256:d0cfdf6afb31a5dabf3b95966cb31f3c757a0edaf3228715409cb404b9933de0"},
-    {file = "openai-1.25.0.tar.gz", hash = "sha256:22c35b26b8281cd2759b1a4c05ac99e2f2b26a9df71f90a0b4ddb75aa27adc81"},
+    {file = "openai-1.30.2-py3-none-any.whl", hash = "sha256:44316818fbff3845278e862a655c4c041e93d907b04eff64629c2835f29bd58e"},
+    {file = "openai-1.30.2.tar.gz", hash = "sha256:f86780f40505de60fa389993d9b7f5564f20acfbe5efcabd5c853a12453af2b0"},
 ]
 
 [package.dependencies]
@@ -2957,6 +2958,17 @@ mic = ["olefile"]
 tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
 typing = ["typing-extensions"]
 xmp = ["defusedxml"]
+
+[[package]]
+name = "pip"
+version = "24.0"
+description = "The PyPA recommended tool for installing Python packages."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pip-24.0-py3-none-any.whl", hash = "sha256:ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc"},
+    {file = "pip-24.0.tar.gz", hash = "sha256:ea9bd1a847e8c5774a5777bb398c19e80bcd4e2aa16a4b301b718fe6f593aba2"},
+]
 
 [[package]]
 name = "pkginfo"
