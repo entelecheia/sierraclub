@@ -27,5 +27,6 @@ sierra.llms
    :toctree:
    :recursive:
 
+   sierra.llms.ollama
    sierra.llms.openai
 
