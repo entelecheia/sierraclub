@@ -1370,13 +1370,13 @@ protobuf = ["grpcio-tools (>=1.63.0)"]
 
 [[package]]
 name = "guardrails-ai"
-version = "0.5.2"
+version = "0.5.3"
 description = "Adding guardrails to large language models."
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "guardrails_ai-0.5.2-py3-none-any.whl", hash = "sha256:afeb166a739d9f208203be77bb3581624394187a34dac4f71076b77fb48012d4"},
-    {file = "guardrails_ai-0.5.2.tar.gz", hash = "sha256:62c48bd744291c87591226953933db69caee18a077c370cea53fcbad64560b82"},
+    {file = "guardrails_ai-0.5.3-py3-none-any.whl", hash = "sha256:6ac05cad153c2c464bac94f462bd860e918d9eaafc55100e999fa651fbe8c6b9"},
+    {file = "guardrails_ai-0.5.3.tar.gz", hash = "sha256:2124360aa9cc1cac87b33c5937da7a206ef5de7af24e8e04e2e4f110d1b3f2fe"},
 ]
 
 [package.dependencies]
